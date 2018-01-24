@@ -1,0 +1,21 @@
+# First, the Training Image data:
+Training Image File: TI_3D\fold_categorical.sgems
+Training Image Size: 55x55x55
+
+# Second, the Realization Data:
+Realization File Name: Fold
+Realization Size: 52x52x52
+
+# Third, get the Template Size and Overlap Size:
+Template Size: 16x16x16
+Overlap: 4x4x4
+
+# Fourth, some Simulation parameters:
+Simulation Path: raster
+Similarity Function: SeismicANNRleConvolution
+Random seed: 0
+Amount of Simulations: 1
+
+# Fifth, the Conditioning: Seismic 
+Training Image Convoluted File: TI_3D\fold_convoluted32.sgems
+Seismic Conditioning File: TI_3D\fold_convoluted52.sgems
